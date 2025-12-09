@@ -1,24 +1,16 @@
-# Telegram bot
+# Telegram Bot
 aiogram==3.7.0
 
-# Web framework
-fastapi==0.108.0       # نسخة حديثة تدعم Pydantic 2.x
-
-# ASGI server
+# Web control
+fastapi==0.108.0
 uvicorn[standard]==0.23.2
 
 # Database
 aiosqlite==0.19.0
-
-# Timezone handling
-pytz==2025.2
-
-# File handling
 aiofiles~=23.2.1
 
-# Security
+# Utilities
 itsdangerous==2.1.2
-
-# Required by Aiogram
-certifi>=2025.11.12
-magic-filter~=1.0.12
+pytz==2025.2
+python-multipart==0.0.6  # ضروري لتحميل ملفات من الويب
+Jinja2==3.1.2            # لتوليد صفحات HTML
