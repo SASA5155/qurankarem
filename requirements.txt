@@ -1,6 +1,15 @@
+# FastAPI مع Pydantic 1.x لتوافق Aiogram 3.6.x
 fastapi==0.95.2
 uvicorn[standard]==0.22.0
-aiosqlite==0.19.0
-itsdangerous==2.1.2
+
+# Aiogram متوافق مع FastAPI 0.95.2
 aiogram==3.6.2
+
+# قاعدة البيانات
+aiosqlite==0.19.0
+
+# إدارة كلمات السر والجلسات
+itsdangerous==2.1.2
+
+# توقيت
 pytz>=2025.2
